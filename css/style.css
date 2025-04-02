@@ -500,12 +500,17 @@ footer {
 /* 访问统计样式 */
 .stats-counter {
     width: 100%;
+    max-width: 100%;
     text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .stats-counter p {
     margin-top: 1rem;
     color: var(--gray-color);
+    white-space: normal;
+    overflow-wrap: break-word;
 }
 
 /* 动画效果 */
