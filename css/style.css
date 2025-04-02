@@ -503,14 +503,30 @@ footer {
     max-width: 100%;
     text-align: center;
     box-sizing: border-box;
-    overflow: hidden;
+    padding: 0 10px; /* 添加一些内边距 */
 }
 
 .stats-counter p {
     margin-top: 1rem;
     color: var(--gray-color);
-    white-space: normal;
+    font-size: clamp(12px, 3vw, 16px); /* 响应式字体大小 */
+    line-height: 1.4;
     overflow-wrap: break-word;
+}
+
+/* 媒体查询，针对小屏幕设备 */
+@media (max-width: 768px) {
+    .stats-counter {
+        transform: scale(0.4); /* 整体缩小到90% */
+        transform-origin: center top;
+    }
+}
+
+/* 更小的屏幕进一步缩小 */
+@media (max-width: 480px) {
+    .stats-counter {
+        transform: scale(0.3); /* 整体缩小到80% */
+    }
 }
 
 /* 动画效果 */
