@@ -1,0 +1,26 @@
+[
+    {
+        "icon": "fa-brands fa-connectdevelop fa-spin fa-xl",
+        "name": "Causal Discovery"
+    },
+    {
+        "icon": "fa-solid fa-timeline fa-flip fa-xl",
+        "name": "Causal Feature Selection"
+    },
+    {
+        "icon": "fa-solid fa-bezier-curve fa-fade fa-xl",
+        "name": "Causal Structure Learning"
+    },
+    {
+        "icon": "fa-solid fa-robot fa-shake fa-xl",
+        "name": "Trustworthy Artificial Intelligence"
+    },
+    {
+        "icon": "fa-solid fa-building-shield fa-beat fa-xl",
+        "name": "Federated Learning"
+    },
+    {
+        "icon": "fa-brands fa-critical-role fa-spin fa-spin-reverse fa-xl",
+        "name": "Federated Causal Discovery"
+    }
+]

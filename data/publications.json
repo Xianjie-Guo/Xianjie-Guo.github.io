@@ -1,0 +1,283 @@
+[
+    {
+        "title": "Federated Causally Invariant Feature Learning",
+        "authors": ["Xianjie Guo", "Kui Yu", "Lizhen Cui", "Han Yu", "Xiaoxiao Li"],
+        "venue": "Proceedings of the 39th AAAI Conference on Artificial Intelligence (AAAI), 2025",
+        "year": "2025",
+        "url": "https://XXXXXXX",
+        "badges": [
+            { "icon": "award", "text": "CCF-A Conference" },
+            { "icon": "percentage", "text": "Acceptance Rate 23.40%" }
+        ],
+        "links": [
+            { "icon": "file-pdf", "text": "PDF", "url": "pdf/FedCIFL(2025).pdf" },
+            { "icon": "code", "text": "Code", "url": "https://github.com/Xianjie-Guo/FedCIFL" },
+            { "icon": "file-alt", "text": "Appendix", "url": "pdf/FedCIFL-app.pdf" }
+        ]
+    },
+    {
+        "title": "FedECE: Federated Estimation of Causal Effect Based on Causal Graphical Modelling",
+        "authors": ["Yongsheng Zhao", "Kui Yu", "Guodu Xiang", "Xianjie Guo", "Fuyuan Cao"],
+        "venue": "IEEE Transactions on Artificial Intelligence (TAI), 2025",
+        "year": "2025",
+        "url": "https://ieeexplore.ieee.org/abstract/document/10904094",
+        "badges": [
+            { "icon": "stamp", "text": "EI Journal" }
+        ],
+        "links": [
+            { "icon": "file-pdf", "text": "PDF", "url": "pdf/FedECE(2025).pdf" },
+            { "icon": "file-alt", "text": "Supplementary Material", "url": "pdf/FedECE-supp.pdf" }
+        ]
+    },
+    {
+        "title": "Enhancing Causal Discovery in Federated Settings with Limited Local Samples",
+        "authors": ["Xianjie Guo", "Liping Yi", "Xiaohu Wu", "Kui Yu", "Gang Wang"],
+        "venue": "International Workshop on Federated Foundation Models in Conjunction with NeurIPS 2024 (FL@FM-NeurIPS), 2024",
+        "year": "2024",
+        "url": "https://openreview.net/forum?id=Js64okXDUE",
+        "badges": [
+            { "icon": "award", "text": "Top Conference Workshop" },
+            { "icon": "trophy", "text": "Outstanding Student Paper Award" },
+            { "icon": "microphone", "text": "Oral" }
+        ],
+        "links": [
+            { "icon": "file-pdf", "text": "PDF", "url": "pdf/FedECD(2024).pdf" },
+            { "icon": "code", "text": "Code", "url": "https://github.com/Xianjie-Guo/FedECD" },
+            { "icon": "book", "text": "Monograph Link", "url": "https://link.springer.com/chapter/10.1007/978-3-031-82240-7_12"  }
+        ]
+    },
+    {
+        "title": "Progressive Skeleton Learning for Effective Local-to-Global Causal Structure Learning",
+        "authors": ["Xianjie Guo", "Kui Yu", "Lin Liu", "Jiuyong Li", "Jiye Liang", "Fuyuan Cao", "Xindong Wu"],
+        "venue": "IEEE Transactions on Knowledge and Data Engineering (TKDE), 2024",
+        "year": "2024",
+        "url": "https://ieeexplore.ieee.org/abstract/document/10681652",
+        "badges": [
+            { "icon": "award", "text": "CCF-A Journal" },
+            { "icon": "star", "text": "SCI Q1" },
+            { "icon": "chart-line", "text": "Impact Factor: 8.9" }
+        ],
+        "links": [
+            { "icon": "file-pdf", "text": "PDF", "url": "pdf/PCSL(2024).pdf" },
+            { "icon": "code", "text": "Code", "url": "https://github.com/Xianjie-Guo/PCSL" },
+            { "icon": "file-alt", "text": "Supplementary Material", "url": "pdf/PCSL-supp.pdf" }
+        ]
+    },
+    {
+        "title": "Sample Quality Heterogeneity-Aware Federated Causal Discovery through Adaptive Variable Space Selection",
+        "authors": ["Xianjie Guo", "Kui Yu", "Hao Wang", "Lizhen Cui", "Han Yu", "Xiaoxiao Li"],
+        "venue": "Proceedings of the 33rd International Joint Conference on Artificial Intelligence (IJCAI), 2024",
+        "year": "2024",
+        "url": "https://www.ijcai.org/proceedings/2024/0450.pdf",
+        "badges": [
+            { "icon": "award", "text": "CCF-A Conference" },
+            { "icon": "percentage", "text": "Acceptance Rate 14.00%" },
+            { "icon": "microphone", "text": "(Long) Oral" }
+        ],
+        "links": [
+            { "icon": "file-pdf", "text": "PDF", "url": "pdf/FedACD(2024).pdf" },
+            { "icon": "code", "text": "Code", "url": "https://github.com/Xianjie-Guo/FedACD" },
+            { "icon": "file-alt", "text": "Appendix", "url": "pdf/FedACD-app.pdf" }
+        ]
+    },
+    {
+        "title": "FedCSL: A Scalable and Accurate Approach to Federated Causal Structure Learning",
+        "authors": ["Xianjie Guo", "Kui Yu", "Lin Liu", "Jiuyong Li"],
+        "venue": "Proceedings of the 38th AAAI Conference on Artificial Intelligence (AAAI), 2024",
+        "year": "2024",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/29113",
+        "badges": [
+            { "icon": "award", "text": "CCF-A Conference" },
+            { "icon": "percentage", "text": "Acceptance Rate 23.75%" }
+        ],
+        "links": [
+            { "icon": "file-pdf", "text": "PDF", "url": "pdf/FedCSL(2024).pdf" },
+            { "icon": "code", "text": "Code", "url": "https://github.com/Xianjie-Guo/FedCSL" },
+            { "icon": "file-alt", "text": "Appendix", "url": "pdf/FedCSL-app.pdf" }
+        ]
+    },
+    {
+        "title": "Local Causal Structure Learning with Missing Data",
+        "authors": ["Shaojing Sheng", "Xianjie Guo", "Kui Yu", "Xindong Wu"],
+        "venue": "Expert Systems With Applications (ESWA), 2024",
+        "year": "2024",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0957417423023333",
+        "badges": [
+            { "icon": "star", "text": "SCI Q1" },
+            { "icon": "chart-line", "text": "Impact Factor: 7.5" },
+            { "icon": "award", "text": "CCF-C Journal" }
+        ],
+        "links": [
+            { "icon": "file-pdf", "text": "PDF", "url": "pdf/misLCS(2024).pdf" }
+        ]
+    },
+    {
+        "title": "Adaptive Skeleton Construction for Accurate DAG Learning",
+        "authors": ["Xianjie Guo", "Kui Yu", "Lin Liu", "Peipei Li", "Jiuyong Li"],
+        "venue": "IEEE Transactions on Knowledge and Data Engineering (TKDE), 2023",
+        "year": "2023",
+        "url": "https://ieeexplore.ieee.org/abstract/document/10098143",
+        "badges": [
+            { "icon": "award", "text": "CCF-A Journal" },
+            { "icon": "star", "text": "SCI Q1" },
+            { "icon": "chart-line", "text": "Impact Factor: 8.9" }
+        ],
+        "links": [
+            { "icon": "file-pdf", "text": "PDF", "url": "pdf/ADL(2023).pdf" },
+            { "icon": "code", "text": "Code", "url": "https://github.com/Xianjie-Guo/ADL" },
+            { "icon": "file-alt", "text": "Supplementary Material", "url": "pdf/ADL-supp.pdf" }
+        ]
+    },
+    {
+        "title": "Towards Privacy-Aware Causal Structure Learning in Federated Setting",
+        "authors": ["Jianli Huang", "Xianjie Guo (co-first author)", "Kui Yu", "Fuyuan Cao", "Jiye Liang"],
+        "venue": "IEEE Transactions on Big Data (TBD), 2023",
+        "year": "2023",
+        "url": "https://ieeexplore.ieee.org/abstract/document/10149428",
+        "notes": "co-first author",
+        "badges": [
+            { "icon": "star", "text": "SCI Q2" },
+            { "icon": "chart-line", "text": "Impact Factor: 7.5" },
+            { "icon": "award", "text": "CCF-C Journal" }
+        ],
+        "links": [
+            { "icon": "file-pdf", "text": "PDF", "url": "pdf/FedPC(2023).pdf" },
+            { "icon": "code", "text": "Code", "url": "https://github.com/Xianjie-Guo/FedPC" },
+            { "icon": "file-alt", "text": "Supplementary Material", "url": "pdf/FedPC-supp.pdf" }
+        ]
+    },
+    {
+        "title": "Causal Feature Selection in the Presence of Sample Selection Bias",
+        "authors": ["Shuai Yang", "Xianjie Guo", "Kui Yu", "Xiaoling Huang", "Tingting Jiang", "Jin He", "Lichuan Gu"],
+        "venue": "ACM Transactions on Intelligent Systems and Technology (TIST), 2023",
+        "year": "2023",
+        "url": "https://dl.acm.org/doi/abs/10.1145/3604809",
+        "badges": [
+            { "icon": "star", "text": "SCI Q3" },
+            { "icon": "chart-line", "text": "Impact Factor: 7.2" }
+        ],
+        "links": [
+            { "icon": "file-pdf", "text": "PDF", "url": "pdf/PCFS(2023).pdf" }
+        ]
+    },
+    {
+        "title": "A Novel Data Enhancement Approach to DAG Learning with Small Data Samples",
+        "authors": ["Xiaoling Huang", "Xianjie Guo", "Yuling Li", "Kui Yu"],
+        "venue": "Applied Intelligence (APIN), 2023",
+        "year": "2023",
+        "url": "https://link.springer.com/article/10.1007/s10489-023-04999-2",
+        "badges": [
+            { "icon": "star", "text": "SCI Q3" },
+            { "icon": "chart-line", "text": "Impact Factor: 3.4" },
+            { "icon": "award", "text": "CCF-C Journal" }
+        ],
+        "links": [
+            { "icon": "file-pdf", "text": "PDF", "url": "pdf/DE-DAG(2023).pdf" }
+        ]
+    },
+    {
+        "title": "Bootstrap-based Layer-Wise Refining for Causal Structure Learning",
+        "authors": ["Guodu Xiang", "Hao Wang", "Kui Yu", "Xianjie Guo", "Fuyuan Cao", "Yukun Song"],
+        "venue": "IEEE Transactions on Artificial Intelligence (TAI), 2023",
+        "year": "2023",
+        "url": "https://ieeexplore.ieee.org/abstract/document/10310027",
+        "badges": [
+            { "icon": "stamp", "text": "EI Journal" }
+        ],
+        "links": [
+            { "icon": "file-pdf", "text": "PDF", "url": "pdf/BLR(2023).pdf" },
+            { "icon": "code", "text": "Code", "url": "https://github.com/xgd600600/BLR" }
+        ]
+    },
+    {
+        "title": "Bootstrap-based Causal Structure Learning",
+        "authors": ["Xianjie Guo", "Yujie Wang", "Xiaoling Huang", "Shuai Yang", "Kui Yu"],
+        "venue": "Proceedings of the 31st ACM International Conference on Information & Knowledge Management (CIKM), 2022",
+        "year": "2022",
+        "url": "https://dl.acm.org/doi/abs/10.1145/3511808.3557249",
+        "badges": [
+            { "icon": "award", "text": "CCF-B Conference" },
+            { "icon": "file-alt", "text": "Long Paper" },
+            { "icon": "percentage", "text": "Acceptance Rate 21.6%" }
+        ],
+        "links": [
+            { "icon": "file-pdf", "text": "PDF", "url": "pdf/BCSL(2022).pdf" },
+            { "icon": "code", "text": "Code", "url": "https://github.com/Xianjie-Guo/BCSL" }
+        ]
+    },
+    {
+        "title": "Causal Feature Selection with Dual Correction",
+        "authors": ["Xianjie Guo", "Kui Yu", "Lin Liu", "Fuyuan Cao", "Jiuyong Li"],
+        "venue": "IEEE Transactions on Neural Networks and Learning Systems (TNNLS), 2022",
+        "year": "2022",
+        "url": "https://ieeexplore.ieee.org/abstract/document/9791080",
+        "badges": [
+            { "icon": "star", "text": "SCI Q1" },
+            { "icon": "chart-line", "text": "Impact Factor: 10.2" },
+            { "icon": "award", "text": "CCF-B Journal" }
+        ],
+        "links": [
+            { "icon": "file-pdf", "text": "PDF", "url": "pdf/DCMB(2022).pdf" },
+            { "icon": "code", "text": "Code", "url": "https://github.com/Xianjie-Guo/DCMB" },
+            { "icon": "file-alt", "text": "Supplementary Material", "url": "pdf/DCMB-supp.pdf" }
+        ]
+    },
+    {
+        "title": "Error-Aware Markov Blanket Learning for Causal Feature Selection",
+        "authors": ["Xianjie Guo", "Kui Yu", "Fuyuan Cao", "Peipei Li", "Hao Wang"],
+        "venue": "Information Sciences (INS), 2022",
+        "year": "2022",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0020025521013402",
+        "badges": [
+            { "icon": "star", "text": "SCI Q2" },
+            { "icon": "chart-line", "text": "Impact Factor: 8.1" },
+            { "icon": "award", "text": "CCF-B Journal" }
+        ],
+        "links": [
+            { "icon": "file-pdf", "text": "PDF", "url": "pdf/EAMB(2022).pdf" },
+            { "icon": "code", "text": "Code", "url": "https://github.com/Xianjie-Guo/EAMB" }
+        ]
+    },
+    {
+        "title": "Accelerating Learning Bayesian Network Structures by Reducing Redundant CI Tests",
+        "authors": ["Wentao Hu", "Shuai Yang", "Xianjie Guo", "Kui Yu"],
+        "venue": "2021 IEEE International Conference on Big Knowledge (ICBK), 2021",
+        "year": "2021",
+        "url": "https://ieeexplore.ieee.org/abstract/document/9667769",
+        "badges": [
+            { "icon": "stamp", "text": "EI Conference" }
+        ],
+        "links": [
+            { "icon": "file-pdf", "text": "PDF", "url": "pdf/CTPC-frameworks(2021).pdf" }
+        ]
+    },
+    {
+        "title": "Improving Gradient-based DAG Learning by Structural Asymmetry",
+        "authors": ["Yujie Wang", "Shuai Yang", "Xianjie Guo", "Kui Yu"],
+        "venue": "2021 IEEE International Conference on Big Knowledge (ICBK), 2021",
+        "year": "2021",
+        "url": "https://ieeexplore.ieee.org/abstract/document/9667749",
+        "badges": [
+            { "icon": "stamp", "text": "EI Conference" }
+        ],
+        "links": [
+            { "icon": "file-pdf", "text": "PDF", "url": "pdf/RIT-framework(2021).pdf" }
+        ]
+    },
+    {
+        "title": "Causality-based Feature Selection: Methods and Evaluations",
+        "authors": ["Kui Yu", "Xianjie Guo", "Lin Liu", "Jiuyong Li", "Hao Wang", "Zhaolong Ling", "Xindong Wu"],
+        "venue": "ACM Computing Surveys (CSUR), 2020",
+        "year": "2020",
+        "url": "https://dl.acm.org/doi/abs/10.1145/3409382",
+        "badges": [
+            { "icon": "star", "text": "SCI Q1" },
+            { "icon": "chart-line", "text": "Impact Factor: 23.8" }
+        ],
+        "links": [
+            { "icon": "file-pdf", "text": "PDF", "url": "pdf/CausalFS(2020).pdf" },
+            { "icon": "code", "text": "Code", "url": "https://github.com/kuiy/CausalFS" },
+            { "icon": "file-alt", "text": "Supplementary Material", "url": "pdf/CausalFS-supp.pdf" }
+        ]
+    }
+]

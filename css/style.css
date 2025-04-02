@@ -1,0 +1,547 @@
+/**
+ * 郭贤杰个人网站样式表
+ * 主要样式定义
+ */
+
+:root {
+    --primary-color: #2563eb;
+    --secondary-color: #1e40af;
+    --accent-color: #3b82f6;
+    --light-color: #f0f9ff;
+    --dark-color: #1e293b;
+    --gray-color: #64748b;
+    --light-gray: #e2e8f0;
+    --success-color: #10b981;
+    --warning-color: #f59e0b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+}
+
+body {
+    background-color: #f8fafc;
+    color: var(--dark-color);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+/* 页眉内容布局 */
+header {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* 页眉内容水平居中布局 */
+.header-content {
+    display: flex;
+    flex-direction: column; /* 整体为纵向布局 */
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    width: 100%;
+}
+
+/* 头像和基本信息容器 */
+.header-info {
+    display: flex;
+    flex-direction: row; /* 水平排列 */
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+    flex-wrap: wrap; /* 在小屏幕上允许换行 */
+}
+
+/* 头像样式 */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 0;
+}
+
+/* 文本内容居中 */
+.header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* 文本左对齐 */
+    text-align: left; /* 文本左对齐 */
+}
+
+/* 标题样式 */
+.header-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* 段落样式 */
+.header-text p {
+    font-size: 1.25rem;
+    opacity: 0.9;
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+/* 社交链接独立一行，居中 */
+.social-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 100%;
+}
+
+/* 社交按钮样式优化 */
+.social-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 0.5rem;
+    color: white !important;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    margin: 0.25rem;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .header-info {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .header-text {
+        align-items: center;
+        text-align: center;
+    }
+    
+    .header-text h1 {
+        font-size: 2rem;
+        justify-content: center;
+    }
+    
+    .header-text p {
+        text-align: center;
+    }
+}
+
+/* 主内容样式 */
+main {
+    margin-bottom: 4rem;
+}
+
+.section {
+    background-color: white;
+    border-radius: 0.75rem;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    margin-bottom: 2rem;
+}
+
+.section-title {
+    color: var(--primary-color);
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--light-gray);
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.section-title i {
+    font-size: 1.5rem;
+}
+
+/* 个人简介样式 */
+.bio-content {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/* 研究兴趣样式 */
+.research-interests {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.research-tag {
+    background-color: var(--light-color);
+    color: var(--primary-color);
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* 教育经历样式 */
+.timeline {
+    position: relative;
+    padding-left: 2rem;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: var(--light-gray);
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -2rem;
+    top: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: var(--accent-color);
+    border: 2px solid white;
+}
+
+.timeline-date {
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 0.25rem;
+}
+
+.timeline-title {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+}
+
+.timeline-location {
+    color: var(--gray-color);
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* 论文发表样式 */
+.publication-year {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin: 1.5rem 0 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--light-gray);
+}
+
+.publication-year:first-child {
+    margin-top: 0;
+}
+
+.publication-item {
+    margin-bottom: 1.5rem;
+    padding-left: 1rem;
+    border-left: 3px solid var(--light-gray);
+    transition: border-left-color 0.3s;
+}
+
+.publication-item:hover {
+    border-left-color: var(--accent-color);
+}
+
+.publication-title {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.publication-title a {
+    color: var(--dark-color);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.publication-title a:hover {
+    color: var(--primary-color);
+}
+
+.publication-authors {
+    margin-bottom: 0.5rem;
+}
+
+.publication-venue {
+    color: var(--gray-color);
+    font-style: italic;
+    margin-bottom: 0.5rem;
+}
+
+.publication-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    background-color: var(--light-color);
+    color: var(--primary-color);
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.85rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.publication-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.publication-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    background-color: var(--light-gray);
+    border-radius: 0.25rem;
+    color: var(--gray-color);
+    text-decoration: none;
+    font-size: 0.85rem;
+    transition: all 0.3s;
+}
+
+.publication-link:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* 荣誉奖励样式 */
+.awards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.award-item {
+    background-color: var(--light-color);
+    border-radius: 0.5rem;
+    padding: 1.25rem;
+    border-left: 4px solid var(--accent-color);
+    transition: transform 0.3s;
+}
+
+.award-item:hover {
+    transform: translateY(-5px);
+}
+
+.award-title {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.award-date {
+    color: var(--gray-color);
+    font-size: 0.9rem;
+}
+
+.award-description {
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+}
+
+/* 项目样式 */
+.project-item {
+    padding: 1.5rem;
+    background-color: var(--light-color);
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid var(--accent-color);
+}
+
+.project-title {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.project-meta {
+    color: var(--gray-color);
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+}
+
+.project-meta span {
+    margin-right: 1rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.project-description {
+    margin-top: 0.5rem;
+}
+
+/* 学术服务样式 */
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 1.5rem;
+}
+
+.service-item {
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.service-title {
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.service-list {
+    list-style-type: none;
+}
+
+.service-list li {
+    margin-bottom: 0.5rem;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.service-list li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
+/* 页脚样式 */
+footer {
+    background-color: var(--dark-color);
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 1rem 0;
+    flex-wrap: wrap;
+}
+
+.footer-link {
+    color: var(--light-color);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-link:hover {
+    color: white;
+}
+
+.footer-credit {
+    font-size: 0.9rem;
+    opacity: 0.7;
+    margin-top: 1rem;
+}
+
+/* 特殊类 */
+.special {
+    color: var(--accent-color);
+    font-weight: 500;
+}
+
+/* 访问统计样式 */
+.stats-counter {
+    width: 100%;
+    text-align: center;
+}
+
+.stats-counter p {
+    margin-top: 1rem;
+    color: var(--gray-color);
+}
+
+/* 动画效果 */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.section {
+    animation: fadeIn 0.6s ease-out;
+}
+
+/* 笔记本和平板电脑设备的悬停效果 */
+@media (hover: hover) {
+    .social-btn:hover {
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+    
+    .publication-link:hover {
+        background-color: var(--primary-color);
+        color: white;
+    }
+    
+    .publication-title a:hover {
+        color: var(--primary-color);
+    }
+    
+    .footer-link:hover {
+        color: white;
+    }
+    
+    .award-item:hover {
+        transform: translateY(-5px);
+    }
+    
+    .publication-item:hover {
+        border-left-color: var(--accent-color);
+    }
+}

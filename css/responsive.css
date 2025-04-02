@@ -1,0 +1,230 @@
+/**
+ * 郭贤杰个人网站响应式设计样式
+ * 处理不同屏幕尺寸的布局调整
+ */
+
+/* 平板电脑 */
+@media (max-width: 992px) {
+    .header-text h1 {
+        font-size: 2.2rem;
+    }
+    
+    .section-title {
+        font-size: 1.5rem;
+    }
+    
+    .services-container {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+}
+
+/* 大手机和小平板 */
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .header-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .header-text h1 {
+        font-size: 2rem;
+        justify-content: center;
+    }
+    
+    .social-links {
+        justify-content: center;
+    }
+    
+    .awards-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .services-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .research-interests {
+        justify-content: center;
+    }
+    
+    .footer-links {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+}
+
+/* 手机屏幕 */
+@media (max-width: 576px) {
+    .profile-img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .header-text h1 {
+        font-size: 1.8rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .header-text p {
+        font-size: 1.1rem;
+    }
+    
+    .section {
+        padding: 1.5rem;
+    }
+    
+    .section-title {
+        font-size: 1.4rem;
+    }
+    
+    .bio-content {
+        font-size: 1rem;
+    }
+    
+    .timeline-item::before {
+        width: 0.85rem;
+        height: 0.85rem;
+    }
+    
+    .publication-item {
+        padding-left: 0.75rem;
+    }
+}
+
+/* 小手机屏幕 */
+@media (max-width: 380px) {
+    .header-text h1 {
+        font-size: 1.6rem;
+    }
+    
+    .social-btn {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.9rem;
+    }
+    
+    .publication-badge, 
+    .publication-link {
+        font-size: 0.8rem;
+    }
+}
+
+/* 打印样式调整 */
+@media print {
+    body {
+        background-color: white;
+        color: black;
+    }
+    
+    .section {
+        box-shadow: none;
+        border: 1px solid #eee;
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+    
+    header {
+        background: none !important;
+        color: black;
+        padding: 1rem 0;
+    }
+    
+    .social-btn {
+        border: 1px solid #ddd;
+        color: black;
+        background: none;
+    }
+    
+    .stats-counter,
+    footer {
+        display: none;
+    }
+    
+    .publication-link,
+    .publication-badge {
+        border: 1px solid #eee;
+        background: none;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .timeline::before {
+        background-color: #ddd;
+    }
+    
+    .timeline-item::before {
+        border: 1px solid #ddd;
+        background-color: white;
+    }
+}
+
+/* 深色模式支持 */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary-color: #3b82f6;
+        --secondary-color: #1d4ed8;
+        --accent-color: #60a5fa;
+        --light-color: #1e293b;
+        --dark-color: #f8fafc;
+        --gray-color: #94a3b8;
+        --light-gray: #334155;
+    }
+    
+    body {
+        background-color: #0f172a;
+        color: #f8fafc;
+    }
+    
+    .section {
+        background-color: #1e293b;
+    }
+    
+    .publication-title a {
+        color: #f8fafc;
+    }
+    
+    .publication-title a:hover {
+        color: var(--accent-color);
+    }
+    
+    .publication-badge {
+        background-color: #334155;
+        color: #60a5fa;
+    }
+    
+    .publication-link {
+        background-color: #334155;
+        color: #94a3b8;
+    }
+    
+    .publication-link:hover {
+        background-color: var(--primary-color);
+        color: white;
+    }
+    
+    .award-item,
+    .project-item {
+        background-color: #1a2234;
+    }
+    
+    .service-item {
+        background-color: #1e293b;
+    }
+    
+    .timeline::before {
+        background-color: #334155;
+    }
+    
+    .timeline-item::before {
+        background-color: var(--accent-color);
+        border-color: #1e293b;
+    }
+}
