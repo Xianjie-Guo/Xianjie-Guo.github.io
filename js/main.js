@@ -27,21 +27,12 @@ function loadBioData() {
     fetch('data/bio.json')
         .then(response => response.json())
         .then(data => {
-            // Separate English and Chinese content
-            const fullContent = data.content;
-            const parts = fullContent.split('\n');
-            
-            if (parts.length >= 2 && parts[0].startsWith('EN:') && parts[1].startsWith('CN:')) {
-                // Extract English and Chinese content
-                window.bioContentEN = parts[0].replace('EN: ', '').trim();
-                window.bioContentCN = parts[1].replace('CN: ', '').trim();
-                
-                // Default to English
-                document.getElementById('bio-content').textContent = window.bioContentEN;
-            } else {
-                // If content is not formatted with language markers, display as is
-                document.getElementById('bio-content').textContent = fullContent;
-            }
+            // Extract English and Chinese content
+            window.bioContentEN = data.EN;
+            window.bioContentCN = data.CN;
+
+            // Default to English
+            document.getElementById('bio-content').textContent = window.bioContentEN;
             
             // Set up language toggle
             setupLanguageToggle();
