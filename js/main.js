@@ -21,22 +21,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 /**
- * 加载HTML组件
- * @param {string} targetId - 目标元素ID
- * @param {string} componentUrl - 组件URL
- */
-function loadComponent(targetId, componentUrl) {
-    fetch(componentUrl)
-        .then(response => response.text())
-        .then(html => {
-            document.getElementById(targetId).innerHTML = html;
-        })
-        .catch(error => {
-            console.error(`加载组件 ${componentUrl} 时出错:`, error);
-        });
-}
-
-/**
  * 加载个人简介数据
  */
 function loadBioData() {
