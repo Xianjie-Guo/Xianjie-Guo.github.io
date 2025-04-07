@@ -27,11 +27,46 @@ function loadBioData() {
     fetch('data/bio.json')
         .then(response => response.json())
         .then(data => {
-            document.getElementById('bio-content').textContent = data.content;
+            // Separate English and Chinese content
+            const fullContent = data.content;
+            const parts = fullContent.split('\n');
+            
+            if (parts.length >= 2 && parts[0].startsWith('EN:') && parts[1].startsWith('CN:')) {
+                // Extract English and Chinese content
+                window.bioContentEN = parts[0].replace('EN: ', '').trim();
+                window.bioContentCN = parts[1].replace('CN: ', '').trim();
+                
+                // Default to English
+                document.getElementById('bio-content').textContent = window.bioContentEN;
+            } else {
+                // If content is not formatted with language markers, display as is
+                document.getElementById('bio-content').textContent = fullContent;
+            }
+            
+            // Set up language toggle
+            setupLanguageToggle();
         })
         .catch(error => {
             console.error('加载个人简介数据时出错:', error);
         });
+}
+
+function setupLanguageToggle() {
+    const toggleSwitch = document.getElementById('language-toggle');
+    if (!toggleSwitch) return;
+    
+    toggleSwitch.addEventListener('change', function() {
+        const bioContent = document.getElementById('bio-content');
+        if (this.checked) {
+            // Switch to Chinese
+            bioContent.textContent = window.bioContentCN;
+            bioContent.setAttribute('lang', 'zh-CN');
+        } else {
+            // Switch to English
+            bioContent.textContent = window.bioContentEN;
+            bioContent.setAttribute('lang', 'en');
+        }
+    });
 }
 
 /**
