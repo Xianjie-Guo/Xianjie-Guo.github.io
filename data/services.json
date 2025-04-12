@@ -6,6 +6,7 @@
         "IEEE Transactions on Circuits and Systems for Video Technology",
         "IEEE Transactions on Signal and Information Processing over Networks",
         "IEEE Transactions on Emerging Topics in Computational Intelligence",
+        "IEEE Transactions on Artificial Intelligence",
         "Machine Learning",
         "Neurocomputing",
         "Applied Intelligence",
@@ -16,6 +17,7 @@
         "Neural Processing Letters"
     ],
     "conferences": [
+        "Annual Conference on Neural Information Processing Systems (NeurIPS'25), PC Member",
         "International Conference on Machine Learning (ICML'25), PC Member",
         "International Conference on Learning Representations (ICLR'25), PC Member",
         "Association for the Advancement of Artificial Intelligence (AAAI'24-25), PC Member",
