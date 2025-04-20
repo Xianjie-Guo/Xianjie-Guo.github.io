@@ -325,7 +325,7 @@ function loadProjects() {
                     <div class="project-title">${project.title} (No. ${project.number}), ${project.period}</div>
                     <div class="project-meta">
                         <span><i class="fas fa-user"></i> ${project.role}</span>
-                        ${project.status ? `<span><i class="fas fa-money-bill-wave"></i> 经费:${project.status}</span>` : ''}
+                        ${project.status ? `<span><i class="fas fa-money-bill-wave"></i> 状态: ${project.status}</span>` : ''}
                     </div>
                     <div class="project-description">${project.type}</div>
                 `;
