@@ -22,29 +22,5 @@
     {
         "icon": "fa-brands fa-critical-role fa-spin fa-spin-reverse fa-xl",
         "name": "Federated Causal Discovery"
-    },
-    {
-        "icon": "fas fa-info-circle",
-        "name": "xxxxx"
-    },
-    {
-        "icon": "fas fa-tag",
-        "name": "xxx"
-    },
-    {
-        "icon": "fas fa-chart-bar",
-        "name": "xxx"
-    },
-    {
-        "icon": "fas fa-chart-line",
-        "name": "xxx"
-    },
-    {
-        "icon": "fas fa-list-alt",
-        "name": "xxx"
-    },
-    {
-        "icon": "fas fa-tasks",
-        "name": "xxx"
     }
 ]
