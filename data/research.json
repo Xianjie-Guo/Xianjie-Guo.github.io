@@ -22,5 +22,45 @@
     {
         "icon": "fa-brands fa-critical-role fa-spin fa-spin-reverse fa-xl",
         "name": "Federated Causal Discovery"
+    },
+    {
+        "icon": "fa-spinner",
+        "name": "xxxxx"
+    },
+    {
+        "icon": "fa-hourglass-half",
+        "name": "xxx"
+    },
+    {
+        "icon": "fa-flask",
+        "name": "xxx"
+    },
+    {
+        "icon": "fa-microscope",
+        "name": "xxx"
+    },
+    {
+        "icon": "fa-clock",
+        "name": "xxx"
+    },
+    {
+        "icon": "fa-check-circle",
+        "name": "xxx"
+    },
+    {
+        "icon": "fa-trophy",
+        "name": "xxxx"
+    },
+    {
+        "icon": "fa-flag-checkered",
+        "name": "xxxx"
+    },
+    {
+        "icon": "fa-clipboard-check",
+        "name": "xxxx"
+    },
+    {
+        "icon": "fa-tasks",
+        "name": "xxxx"
     }
 ]
