@@ -24,43 +24,43 @@
         "name": "Federated Causal Discovery"
     },
     {
-        "icon": "fa-spinner",
+        "icon": "fas fa-spinner",
         "name": "xxxxx"
     },
     {
-        "icon": "fa-hourglass-half",
+        "icon": "fas fa-hourglass-half",
         "name": "xxx"
     },
     {
-        "icon": "fa-flask",
+        "icon": "fas fa-flask",
         "name": "xxx"
     },
     {
-        "icon": "fa-microscope",
+        "icon": "fas fa-microscope",
         "name": "xxx"
     },
     {
-        "icon": "fa-clock",
+        "icon": "fas fa-clock",
         "name": "xxx"
     },
     {
-        "icon": "fa-check-circle",
+        "icon": "fas fa-check-circle",
         "name": "xxx"
     },
     {
-        "icon": "fa-trophy",
+        "icon": "fas fa-trophy",
         "name": "xxxx"
     },
     {
-        "icon": "fa-flag-checkered",
+        "icon": "fas fa-flag-checkered",
         "name": "xxxx"
     },
     {
-        "icon": "fa-clipboard-check",
+        "icon": "fas fa-clipboard-check",
         "name": "xxxx"
     },
     {
-        "icon": "fa-tasks",
+        "icon": "fas fa-tasks",
         "name": "xxxx"
     }
 ]
