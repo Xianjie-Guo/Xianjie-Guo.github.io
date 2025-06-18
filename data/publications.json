@@ -55,7 +55,7 @@
         "badges": [
             { "icon": "award", "text": "CCF-A Journal" },
             { "icon": "star", "text": "SCI Q1" },
-            { "icon": "chart-line", "text": "Impact Factor: 8.9" }
+            { "icon": "chart-line", "text": "Impact Factor: 10.4" }
         ],
         "links": [
             { "icon": "file-pdf", "text": "PDF", "url": "pdf/PCSL(2024).pdf" },
@@ -120,7 +120,7 @@
         "badges": [
             { "icon": "award", "text": "CCF-A Journal" },
             { "icon": "star", "text": "SCI Q1" },
-            { "icon": "chart-line", "text": "Impact Factor: 8.9" }
+            { "icon": "chart-line", "text": "Impact Factor: 10.4" }
         ],
         "links": [
             { "icon": "file-pdf", "text": "PDF", "url": "pdf/ADL(2023).pdf" },
@@ -137,7 +137,7 @@
         "notes": "co-first author",
         "badges": [
             { "icon": "star", "text": "SCI Q2" },
-            { "icon": "chart-line", "text": "Impact Factor: 7.5" },
+            { "icon": "chart-line", "text": "Impact Factor: 5.7" },
             { "icon": "award", "text": "CCF-C Journal" }
         ],
         "links": [
@@ -154,7 +154,7 @@
         "url": "https://dl.acm.org/doi/abs/10.1145/3604809",
         "badges": [
             { "icon": "star", "text": "SCI Q3" },
-            { "icon": "chart-line", "text": "Impact Factor: 7.2" }
+            { "icon": "chart-line", "text": "Impact Factor: 6.6" }
         ],
         "links": [
             { "icon": "file-pdf", "text": "PDF", "url": "pdf/PCFS(2023).pdf" }
@@ -168,7 +168,7 @@
         "url": "https://link.springer.com/article/10.1007/s10489-023-04999-2",
         "badges": [
             { "icon": "star", "text": "SCI Q3" },
-            { "icon": "chart-line", "text": "Impact Factor: 3.4" },
+            { "icon": "chart-line", "text": "Impact Factor: 3.5" },
             { "icon": "award", "text": "CCF-C Journal" }
         ],
         "links": [
@@ -213,7 +213,7 @@
         "url": "https://ieeexplore.ieee.org/abstract/document/9791080",
         "badges": [
             { "icon": "star", "text": "SCI Q1" },
-            { "icon": "chart-line", "text": "Impact Factor: 10.2" },
+            { "icon": "chart-line", "text": "Impact Factor: 8.9" },
             { "icon": "award", "text": "CCF-B Journal" }
         ],
         "links": [
@@ -230,7 +230,7 @@
         "url": "https://www.sciencedirect.com/science/article/abs/pii/S0020025521013402",
         "badges": [
             { "icon": "star", "text": "SCI Q2" },
-            { "icon": "chart-line", "text": "Impact Factor: 8.1" },
+            { "icon": "chart-line", "text": "Impact Factor: 6.8" },
             { "icon": "award", "text": "CCF-B Journal" }
         ],
         "links": [
@@ -272,7 +272,7 @@
         "url": "https://dl.acm.org/doi/abs/10.1145/3409382",
         "badges": [
             { "icon": "star", "text": "SCI Q1" },
-            { "icon": "chart-line", "text": "Impact Factor: 23.8" }
+            { "icon": "chart-line", "text": "Impact Factor: 28" }
         ],
         "links": [
             { "icon": "file-pdf", "text": "PDF", "url": "pdf/CausalFS(2020).pdf" },
