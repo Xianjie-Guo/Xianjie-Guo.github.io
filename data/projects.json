@@ -1,5 +1,21 @@
 [
     {
+        "title": "因果驱动的横向联邦特征选择方法研究",
+        "number": "XXXXXXXX",
+        "period": "2025.07-2027.06",
+        "role": "主持",
+        "status": "在研",
+        "type": "江苏省高等学校基础科学（自然科学）研究面上项目-A类 (XXXXXXXXXXXX)"
+    },
+    {
+        "title": "面向分布式高维隐私数据的因果关系推断方法研究",
+        "number": "NY225023",
+        "period": "2025.05-2028.04",
+        "role": "主持",
+        "status": "在研",
+        "type": "南京邮电大学校引进人才科研启动基金项目 (Natural Science Research Start-up Foundation of Recruiting Talents of Nanjing University of Posts and Telecommunications)"
+    },
+    {
         "title": "面向隐私保护数据的联邦因果关系推断算法研究",
         "number": "62376087",
         "period": "2024.01-2027.12",
@@ -14,13 +30,6 @@
         "role": "子课题骨干",
         "status": "在研",
         "type": "科技部新一代人工智能国家科技重大专项 (National Science and Technology Major Project of China)"
-    },
-    {
-        "title": "面向分布式高维隐私数据的因果关系推断方法研究",
-        "number": "NY225023",
-        "period": "2025.05-2028.04",
-        "role": "主持",
-        "status": "在研",
-        "type": "南京邮电大学校引进人才科研启动基金项目 (Natural Science Research Start-up Foundation of Recruiting Talents of Nanjing University of Posts and Telecommunications)"
     }
 ]
+
