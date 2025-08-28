@@ -1,5 +1,21 @@
 [
     {
+        "title": "面向隐私保护的联邦因果不变特征选择方法研究",
+        "number": "62506174",
+        "period": "2026.01-2028.12",
+        "role": "主持",
+        "status": "在研",
+        "type": "国家自然科学基金青年项目 (National Natural Science Foundation of China)"
+    },
+    {
+        "title": "基于因果图模型的联邦特征选择方法研究",
+        "number": "XXXXXX",
+        "period": "2025.07-2028.06",
+        "role": "主持",
+        "status": "在研",
+        "type": "江苏省自然科学基金青年项目 (XXXXXXX)"
+    },
+    {
         "title": "因果驱动的横向联邦特征选择方法研究",
         "number": "XXXXXXXX",
         "period": "2025.07-2027.06",
@@ -14,22 +30,7 @@
         "role": "主持",
         "status": "在研",
         "type": "南京邮电大学校引进人才科研启动基金项目 (Natural Science Research Start-up Foundation of Recruiting Talents of Nanjing University of Posts and Telecommunications)"
-    },
-    {
-        "title": "面向隐私保护数据的联邦因果关系推断算法研究",
-        "number": "62376087",
-        "period": "2024.01-2027.12",
-        "role": "项目骨干",
-        "status": "在研",
-        "type": "国家自然科学基金面上项目 (National Natural Science Foundation of China)"
-    },
-    {
-        "title": "跨媒体因果推断与可信机器学习",
-        "number": "2021ZD0111801",
-        "period": "2021.12-2025.11",
-        "role": "子课题骨干",
-        "status": "在研",
-        "type": "科技部新一代人工智能国家科技重大专项 (National Science and Technology Major Project of China)"
     }
 ]
+
 
