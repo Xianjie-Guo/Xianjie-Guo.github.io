@@ -16,6 +16,21 @@
         ]
     },
     {
+        "title": "Federated Causal Structure Learning with Missing Data",
+        "authors": ["Jiaqi Shi", "Xiaoling Huang", "Xianjie Guo", "Kui Yu", "Chengxiang Hu", "Peng Zhou"],
+        "venue": "Knowledge-based Systems (KBS), 2025",
+        "year": "2025",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0950705125016405",
+        "badges": [
+            { "icon": "star", "text": "SCI Q1" },
+            { "icon": "chart-line", "text": "Impact Factor: 7.6" },
+            { "icon": "award", "text": "CCF-C Journal" }
+        ],
+        "links": [
+            { "icon": "file-pdf", "text": "PDF", "url": "pdf/FedImpCSL(2025).pdf" }
+        ]
+    },
+    {
         "title": "FedECE: Federated Estimation of Causal Effect Based on Causal Graphical Modelling",
         "authors": ["Yongsheng Zhao", "Kui Yu", "Guodu Xiang", "Xianjie Guo", "Fuyuan Cao"],
         "venue": "IEEE Transactions on Artificial Intelligence (TAI), 2025",
@@ -281,3 +296,4 @@
         ]
     }
 ]
+
