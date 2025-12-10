@@ -17,7 +17,8 @@
         "The Journal of Supercomputing",
         "Intelligent Automation and Soft Computing",
         "CMC-Computers Materials & Continua",
-        "Neural Processing Letters"
+        "Neural Processing Letters",
+        "Discover Applied Sciences"
     ],
     "conferences": [
         "Annual Conference on Neural Information Processing Systems (NeurIPS'25), PC Member",
@@ -34,6 +35,7 @@
         "The International Workshop on Federated Learning and Foundation Models (FL@FM-ICME'24), PC Member"
     ]
 }
+
 
 
 
