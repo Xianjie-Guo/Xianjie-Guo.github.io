@@ -30,6 +30,21 @@
         "description": "No. SSY202009798, 排名: 3rd / 15"
     },
     {
+        "title": "安徽省优秀博士学位论文奖",
+        "date": "2025.12",
+        "description": "No. XXXXXX"
+    },
+    {
+        "title": "安徽省优秀硕士学位论文奖",
+        "date": "2022.12",
+        "description": "No. 2022yxssxwlw041"
+    },
+    {
+        "title": "安徽省优秀毕业生称号",
+        "date": "2021.05",
+        "description": "皖优 [2021] 第 00309 号"
+    },
+    {
         "title": "安徽省计算机学会优秀博士论文奖",
         "date": "2025.11",
         "description": "No. ACF-2025-2-02-S"
@@ -43,18 +58,9 @@
         "title": "国家留学基金委公派留学奖学金",
         "date": "2023.07",
         "description": "No. 202306690023"
-    },
-    {
-        "title": "安徽省优秀硕士学位论文奖",
-        "date": "2022.12",
-        "description": "No. 2022yxssxwlw041"
-    },
-    {
-        "title": "安徽省优秀毕业生称号",
-        "date": "2021.05",
-        "description": "皖优 [2021] 第 00309 号"
     }
 ]
+
 
 
 
