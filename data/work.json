@@ -2,16 +2,17 @@
     {
         "period": "2026.01 ~ Present",
         "title": "Nanjing University of Posts and Telecommunications, School of Computer Science, Tenure-track Associate Professor",
-        /*"location": "Nanjing, Jiangsu",*/
-        //"details": ""
+        "_location": "Nanjing, Jiangsu",
+        "_details": ""
     },
     {
         "period": "2025.05 ~ 2026.01",
         "title": "Nanjing University of Posts and Telecommunications, School of Computer Science, Lecturer",
-        //"location": "Nanjing, Jiangsu",
-        //"details": ""
+        "_location": "Nanjing, Jiangsu",
+        "_details": ""
     }
 ]
+
 
 
 
