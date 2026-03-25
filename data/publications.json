@@ -69,7 +69,7 @@
         "url": "https://ieeexplore.ieee.org/abstract/document/10681652",
         "badges": [
             { "icon": "award", "text": "CCF-A Journal" },
-            { "icon": "star", "text": "SCI Q1" },
+            { "icon": "star", "text": "SCI Q2" },
             { "icon": "chart-line", "text": "Impact Factor: 10.4" }
         ],
         "links": [
@@ -134,7 +134,7 @@
         "url": "https://ieeexplore.ieee.org/abstract/document/10098143",
         "badges": [
             { "icon": "award", "text": "CCF-A Journal" },
-            { "icon": "star", "text": "SCI Q1" },
+            { "icon": "star", "text": "SCI Q2" },
             { "icon": "chart-line", "text": "Impact Factor: 10.4" }
         ],
         "links": [
@@ -168,7 +168,7 @@
         "year": "2023",
         "url": "https://dl.acm.org/doi/abs/10.1145/3604809",
         "badges": [
-            { "icon": "star", "text": "SCI Q3" },
+            { "icon": "star", "text": "SCI Q2" },
             { "icon": "chart-line", "text": "Impact Factor: 6.6" },
             { "icon": "award", "text": "CCF-C Journal" }
         ],
@@ -245,7 +245,7 @@
         "year": "2022",
         "url": "https://www.sciencedirect.com/science/article/abs/pii/S0020025521013402",
         "badges": [
-            { "icon": "star", "text": "SCI Q2" },
+            { "icon": "star", "text": "SCI Q1" },
             { "icon": "chart-line", "text": "Impact Factor: 6.8" },
             { "icon": "award", "text": "CCF-B Journal" }
         ],
