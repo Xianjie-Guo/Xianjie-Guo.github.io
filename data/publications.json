@@ -11,7 +11,8 @@
         ],
         "links": [
             { "icon": "file-pdf", "text": "PDF", "url": "pdf/DC-FNCD(2026).pdf" },
-            { "icon": "code", "text": "Code", "url": "https://github.com/Xianjie-Guo/DC-FNCD" }
+            { "icon": "code", "text": "Code", "url": "https://github.com/Xianjie-Guo/DC-FNCD" },
+            { "icon": "file-alt", "text": "Appendix", "url": "pdf/DC-FNCD-app.pdf" }
         ]
     },
     {
