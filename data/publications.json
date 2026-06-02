@@ -7,7 +7,8 @@
         "url": "https://XXXXXXXXXXXXXXXXXXXX",
         "badges": [
             { "icon": "award", "text": "CCF-A Conference" },
-            { "icon": "percentage", "text": "Acceptance Rate 18.5%" }
+            { "icon": "percentage", "text": "Acceptance Rate 18.5%" },
+            { "icon": "microphone", "text": "Oral" }
         ],
         "links": [
             { "icon": "file-pdf", "text": "PDF", "url": "pdf/DC-FNCD(2026).pdf" },
