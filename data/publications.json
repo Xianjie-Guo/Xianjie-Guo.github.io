@@ -1,5 +1,20 @@
 [
     {
+        "title": "Local Causal Structure Learning with Efficient Parents Discovery",
+        "authors": ["Shuai Yang", "Xinyu Miao", "Xianjie Guo", "Jie Pan", "Tingting Jiang", "Qianlong Dang", "Lichuan Gu"],
+        "venue": "ACM Transactions on Intelligent Systems and Technology (TIST), 2026",
+        "year": "2026",
+        "url": "https://XXXXXXXXXXXXXXXXXXX",
+        "badges": [
+            { "icon": "star", "text": "SCI Q2" },
+            { "icon": "chart-line", "text": "Impact Factor: 6.6" },
+            { "icon": "award", "text": "CCF-C Journal" }
+        ],
+        "links": [
+            { "icon": "file-pdf", "text": "PDF", "url": "pdf/EPD(2026).pdf" }
+        ]
+    },
+    {
         "title": "Federated Nonlinear Causal Discovery via Divide-and-Conquer Learning",
         "authors": ["Xianjie Guo", "Shuai Yang", "Lin Ma", "Xi Cheng", "Jie Fu", "Han Yu"],
         "venue": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2026",
