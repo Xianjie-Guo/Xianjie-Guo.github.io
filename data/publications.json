@@ -1,17 +1,18 @@
 [
     {
-        "title": "Local Causal Structure Learning with Efficient Parents Discovery",
-        "authors": ["Shuai Yang", "Xinyu Miao", "Xianjie Guo", "Jie Pan", "Tingting Jiang", "Qianlong Dang", "Lichuan Gu"],
-        "venue": "ACM Transactions on Intelligent Systems and Technology (TIST), 2026",
+        "title": "SFFedMC: Spurious-Free Federated Multi-View Clustering via Privacy-Preserving Confounder Balancing",
+        "authors": ["Xianjie Guo", "Kui Yu", "Shuai Yang", "Xiaoli Tang", "Han Yu", "MingCai Chen"],
+        "venue": "Proceedings of the 34th ACM International Conference on Multimedia (MM), 2026",
         "year": "2026",
-        "url": "https://XXXXXXXXXXXXXXXXXXX",
+        "url": "https://XXXXXXXXXXXXXXXXXXXX",
         "badges": [
-            { "icon": "star", "text": "SCI Q2" },
-            { "icon": "chart-line", "text": "Impact Factor: 6.6" },
-            { "icon": "award", "text": "CCF-C Journal" }
+            { "icon": "award", "text": "CCF-A Conference" },
+            { "icon": "percentage", "text": "Acceptance Rate XX.XX%" }
         ],
         "links": [
-            { "icon": "file-pdf", "text": "PDF", "url": "pdf/EPD(2026).pdf" }
+            { "icon": "file-pdf", "text": "PDF", "url": "pdf/SFFedMC(2026).pdf" },
+            { "icon": "code", "text": "Code", "url": "https://github.com/Xianjie-Guo/SFFedMC" },
+            { "icon": "file-alt", "text": "Appendix", "url": "pdf/SFFedMC-app.pdf" }
         ]
     },
     {
@@ -28,6 +29,21 @@
             { "icon": "file-pdf", "text": "PDF", "url": "pdf/DC-FNCD(2026).pdf" },
             { "icon": "code", "text": "Code", "url": "https://github.com/Xianjie-Guo/DC-FNCD" },
             { "icon": "file-alt", "text": "Appendix", "url": "pdf/DC-FNCD-app.pdf" }
+        ]
+    },
+    {
+        "title": "Local Causal Structure Learning with Efficient Parents Discovery",
+        "authors": ["Shuai Yang", "Xinyu Miao", "Xianjie Guo", "Jie Pan", "Tingting Jiang", "Qianlong Dang", "Lichuan Gu"],
+        "venue": "ACM Transactions on Intelligent Systems and Technology (TIST), 2026",
+        "year": "2026",
+        "url": "https://XXXXXXXXXXXXXXXXXXX",
+        "badges": [
+            { "icon": "star", "text": "SCI Q2" },
+            { "icon": "chart-line", "text": "Impact Factor: 6.6" },
+            { "icon": "award", "text": "CCF-C Journal" }
+        ],
+        "links": [
+            { "icon": "file-pdf", "text": "PDF", "url": "pdf/EPD(2026).pdf" }
         ]
     },
     {
