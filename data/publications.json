@@ -32,6 +32,21 @@
         ]
     },
     {
+        "title": "Causal Structure Learning Algorithms for Asymmetric Causal Relationship Elimination",
+        "authors": ["Xianjie Guo", "Hao Zhou", "Kui Yu"],
+        "venue": "Journal of Frontiers of Computer Science and Technology (FCST) [Chinese], 2026",
+        "year": "2026",
+        "url": "https://XXXXXXXXXXXXXXXXXXXX",
+        "badges": [
+            { "icon": "star", "text": "A Guide to the Core Journal of China‌ / CSCD" },
+            { "icon": "award", "text": "CCF-T2 Journal" }
+        ],
+        "links": [
+            { "icon": "file-pdf", "text": "PDF", "url": "pdf/ECSL(2026).pdf" },
+            { "icon": "code", "text": "Code", "url": "https://github.com/Xianjie-Guo/ECSL" }
+        ]
+    },
+    {
         "title": "Local Causal Structure Learning with Efficient Parents Discovery",
         "authors": ["Shuai Yang", "Xinyu Miao", "Xianjie Guo", "Jie Pan", "Tingting Jiang", "Qianlong Dang", "Lichuan Gu"],
         "venue": "ACM Transactions on Intelligent Systems and Technology (TIST), 2026",
