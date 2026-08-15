@@ -174,6 +174,13 @@ main {
     font-size: 1.5rem;
 }
 
+/* 模块下方的说明文字（如通讯作者图例） */
+.section-note {
+    color: var(--gray-color);
+    font-size: 0.9rem;
+    margin: -0.75rem 0 1.25rem;
+}
+
 /* 个人简介样式 */
 .bio-content {
     font-size: 1.1rem;
@@ -278,7 +285,7 @@ input:checked + .slider:before {
     gap: 0.5rem;
 }
 
-/* 教育经历样式 */
+/* 教育与工作经历样式 */
 .timeline {
     position: relative;
     padding-left: 2rem;
@@ -296,8 +303,8 @@ input:checked + .slider:before {
 
 .timeline-item {
     position: relative;
-    margin-bottom: 2rem;
-    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .timeline-item:last-child {
@@ -316,10 +323,18 @@ input:checked + .slider:before {
     border: 2px solid white;
 }
 
+/* 时间、地点、类型标签同行显示，节省纵向空间 */
+.timeline-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 1rem;
+    margin-bottom: 0.25rem;
+}
+
 .timeline-date {
     font-weight: 600;
     color: var(--primary-color);
-    margin-bottom: 0.25rem;
 }
 
 .timeline-title {
@@ -331,10 +346,27 @@ input:checked + .slider:before {
 .timeline-location {
     color: var(--gray-color);
     font-size: 0.95rem;
-    margin-bottom: 0.5rem;
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.35rem;
+}
+
+/* 区分工作 / 教育经历的小标签 */
+.timeline-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background-color: var(--light-color);
+    color: var(--primary-color);
+    padding: 0.1rem 0.6rem;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.timeline-details {
+    color: var(--gray-color);
+    font-size: 0.95rem;
 }
 
 /* 论文发表样式 */
@@ -387,6 +419,23 @@ input:checked + .slider:before {
     margin-bottom: 0.5rem;
 }
 
+/* 通讯作者标记 */
+.corresponding-mark {
+    margin-left: 0.3rem;
+    font-size: 0.8em;
+    color: var(--primary-color);
+    vertical-align: baseline;
+}
+
+/* 标签与资源链接同处一行 */
+.publication-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.35rem;
+}
+
 .publication-badge {
     display: inline-flex;
     align-items: center;
@@ -396,15 +445,14 @@ input:checked + .slider:before {
     padding: 0.25rem 0.5rem;
     border-radius: 0.25rem;
     font-size: 0.85rem;
-    margin-right: 0.5rem;
-    margin-bottom: 0.5rem;
 }
 
-.publication-links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-top: 0.5rem;
+/* 标签与链接之间的竖线分隔符 */
+.publication-meta-sep {
+    width: 1px;
+    height: 1rem;
+    background-color: var(--light-gray);
+    margin: 0 0.25rem;
 }
 
 .publication-link {
@@ -489,6 +537,50 @@ input:checked + .slider:before {
 
 .project-description {
     margin-top: 0.5rem;
+}
+
+/* 紧凑列表样式（发明专利 / 学科竞赛） */
+.compact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.compact-item {
+    background-color: var(--light-color);
+    border-left: 3px solid var(--accent-color);
+    border-radius: 0.35rem;
+    padding: 0.6rem 0.9rem;
+}
+
+.compact-title {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.compact-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.25rem 1rem;
+    color: var(--gray-color);
+    font-size: 0.85rem;
+    margin-top: 0.15rem;
+}
+
+.compact-meta span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.compact-badge {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.05rem 0.5rem;
+    border-radius: 0.25rem;
+    font-weight: 500;
 }
 
 /* 学术服务样式 */
@@ -589,6 +681,49 @@ footer {
     color: var(--gray-color);
     white-space: normal;
     overflow-wrap: break-word;
+}
+
+/* 访问量数值卡片 */
+.visit-stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.visit-stat-card {
+    background-color: var(--light-color);
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    min-width: 180px;
+}
+
+.visit-stat-value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    line-height: 1.2;
+}
+
+.visit-stat-label {
+    color: var(--gray-color);
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+}
+
+/* 图片计数器 */
+.visit-badge-link {
+    display: inline-block;
+    margin-top: 1.25rem;
+    max-width: 100%;
+}
+
+.visit-badge {
+    max-width: 100%;
+    height: auto;
 }
 
 /* 动画效果 */

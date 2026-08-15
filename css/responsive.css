@@ -95,6 +95,24 @@
     .publication-item {
         padding-left: 0.75rem;
     }
+
+    /* 窄屏下标签与链接换行，分隔符失去意义 */
+    .publication-meta-sep {
+        display: none;
+    }
+
+    .timeline-meta {
+        gap: 0.35rem 0.75rem;
+    }
+
+    .visit-stat-card {
+        padding: 0.85rem 1.25rem;
+        min-width: 140px;
+    }
+
+    .visit-stat-value {
+        font-size: 1.6rem;
+    }
 }
 
 /* 小手机屏幕 */
@@ -108,9 +126,17 @@
         font-size: 0.9rem;
     }
     
-    .publication-badge, 
+    .publication-badge,
     .publication-link {
         font-size: 0.8rem;
+    }
+
+    .compact-meta {
+        font-size: 0.8rem;
+    }
+
+    .visit-stats {
+        gap: 1rem;
     }
 }
 
@@ -211,8 +237,20 @@
     }
     
     .award-item,
-    .project-item {
+    .project-item,
+    .compact-item,
+    .visit-stat-card {
         background-color: #1a2234;
+    }
+
+    .timeline-tag {
+        background-color: #334155;
+        color: #60a5fa;
+    }
+
+    .compact-badge {
+        background-color: var(--primary-color);
+        color: #f8fafc;
     }
     
     .service-item {
