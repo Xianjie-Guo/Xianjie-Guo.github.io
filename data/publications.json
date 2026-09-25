@@ -47,6 +47,20 @@
         ]
     },
     {
+        "title": "Distributionally Robust Black Box Optimization-based Bidding Strategy in Auction-based Federated Learning",
+        "authors": ["Xiaoli Tang", "Zhuang Qi", "Ying-Peng Tang", "Xianjie Guo", "Han Yu", "Jie Zhang", "Hengjie Song"],
+        "venue": "Proceedings of the Fortieth Annual Conference on Neural Information Processing Systems (NeurIPS), 2026",
+        "year": "2026",
+        "url": "https://XXXXXXXXXXXXXXXXXXXX",
+        "badges": [
+            { "icon": "award", "text": "CCF-A Conference" },
+            { "icon": "percentage", "text": "Acceptance Rate 25.7%" }
+        ],
+        "links": [
+            { "icon": "file-pdf", "text": "PDF", "url": "pdf/DR-AFL(2026).pdf" }
+        ]
+    },
+    {
         "title": "Local Causal Structure Learning with Efficient Parents Discovery",
         "authors": ["Shuai Yang", "Xinyu Miao", "Xianjie Guo", "Jie Pan", "Tingting Jiang", "Qianlong Dang", "Lichuan Gu"],
         "venue": "ACM Transactions on Intelligent Systems and Technology (TIST), 2026",
