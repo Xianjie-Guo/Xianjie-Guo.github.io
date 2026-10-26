@@ -76,6 +76,21 @@
         ]
     },
     {
+        "title": "Screening and Refinement for Causal Feature Selection under Sample Selection Bias",
+        "authors": ["Jie Pan", "Shuai Yang", "Xinyu Miao", "Xianjie Guo", "Lichuan Gu"],
+        "venue": "Knowledge-based Systems (KBS), 2026",
+        "year": "2026",
+        "url": "https://XXXXXXXXXXXXXXXXXXX",
+        "badges": [
+            { "icon": "star", "text": "SCI Q1" },
+            { "icon": "chart-line", "text": "Impact Factor: 7.6" },
+            { "icon": "award", "text": "CCF-C Journal" }
+        ],
+        "links": [
+            { "icon": "file-pdf", "text": "PDF", "url": "pdf/SRCFS(2026).pdf" }
+        ]
+    },
+    {
         "title": "Federated Causally Invariant Feature Learning",
         "authors": ["Xianjie Guo", "Kui Yu", "Lizhen Cui", "Han Yu", "Xiaoxiao Li"],
         "venue": "Proceedings of the 39th AAAI Conference on Artificial Intelligence (AAAI), 2025",
