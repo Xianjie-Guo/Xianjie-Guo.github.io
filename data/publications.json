@@ -1,5 +1,20 @@
 [
     {
+        "title": "Screening and Refinement for Causal Feature Selection under Sample Selection Bias",
+        "authors": ["Jie Pan", "Shuai Yang", "Xinyu Miao", "Xianjie Guo", "Lichuan Gu"],
+        "venue": "Knowledge-based Systems (KBS), 2027",
+        "year": "2027",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S095070512601988X",
+        "badges": [
+            { "icon": "star", "text": "SCI Q1" },
+            { "icon": "chart-line", "text": "Impact Factor: 8.001" },
+            { "icon": "award", "text": "CCF-C Journal" }
+        ],
+        "links": [
+            { "icon": "file-pdf", "text": "PDF", "url": "pdf/SRCFS(2026).pdf" }
+        ]
+    },
+    {
         "title": "SFFedMC: Spurious-Free Federated Multi-View Clustering via Privacy-Preserving Confounder Balancing",
         "authors": ["Xianjie Guo", "Kui Yu", "Shuai Yang", "Xiaoli Tang", "Han Yu", "MingCai Chen"],
         "venue": "Proceedings of the 34th ACM International Conference on Multimedia (MM), 2026",
@@ -73,21 +88,6 @@
         ],
         "links": [
             { "icon": "file-pdf", "text": "PDF", "url": "pdf/EPD(2026).pdf" }
-        ]
-    },
-    {
-        "title": "Screening and Refinement for Causal Feature Selection under Sample Selection Bias",
-        "authors": ["Jie Pan", "Shuai Yang", "Xinyu Miao", "Xianjie Guo", "Lichuan Gu"],
-        "venue": "Knowledge-based Systems (KBS), 2026",
-        "year": "2026",
-        "url": "https://www.sciencedirect.com/science/article/abs/pii/S095070512601988X",
-        "badges": [
-            { "icon": "star", "text": "SCI Q1" },
-            { "icon": "chart-line", "text": "Impact Factor: 8.001" },
-            { "icon": "award", "text": "CCF-C Journal" }
-        ],
-        "links": [
-            { "icon": "file-pdf", "text": "PDF", "url": "pdf/SRCFS(2026).pdf" }
         ]
     },
     {
@@ -218,6 +218,23 @@
         ]
     },
     {
+        "title": "Causal Feature Selection with Dual Correction",
+        "authors": ["Xianjie Guo", "Kui Yu", "Lin Liu", "Fuyuan Cao", "Jiuyong Li"],
+        "venue": "IEEE Transactions on Neural Networks and Learning Systems (TNNLS), 2024",
+        "year": "2024",
+        "url": "https://ieeexplore.ieee.org/abstract/document/9791080",
+        "badges": [
+            { "icon": "star", "text": "SCI Q1" },
+            { "icon": "chart-line", "text": "Impact Factor: 9.697" },
+            { "icon": "award", "text": "CCF-B Journal" }
+        ],
+        "links": [
+            { "icon": "file-pdf", "text": "PDF", "url": "pdf/DCMB(2022).pdf" },
+            { "icon": "code", "text": "Code", "url": "https://github.com/Xianjie-Guo/DCMB" },
+            { "icon": "file-alt", "text": "Supplementary Material", "url": "pdf/DCMB-supp.pdf" }
+        ]
+    },
+    {
         "title": "Local Causal Structure Learning with Missing Data",
         "authors": ["Shaojing Sheng", "Xianjie Guo", "Kui Yu", "Xindong Wu"],
         "venue": "Expert Systems With Applications (ESWA), 2024",
@@ -325,23 +342,6 @@
         "links": [
             { "icon": "file-pdf", "text": "PDF", "url": "pdf/BCSL(2022).pdf" },
             { "icon": "code", "text": "Code", "url": "https://github.com/Xianjie-Guo/BCSL" }
-        ]
-    },
-    {
-        "title": "Causal Feature Selection with Dual Correction",
-        "authors": ["Xianjie Guo", "Kui Yu", "Lin Liu", "Fuyuan Cao", "Jiuyong Li"],
-        "venue": "IEEE Transactions on Neural Networks and Learning Systems (TNNLS), 2022",
-        "year": "2022",
-        "url": "https://ieeexplore.ieee.org/abstract/document/9791080",
-        "badges": [
-            { "icon": "star", "text": "SCI Q1" },
-            { "icon": "chart-line", "text": "Impact Factor: 9.697" },
-            { "icon": "award", "text": "CCF-B Journal" }
-        ],
-        "links": [
-            { "icon": "file-pdf", "text": "PDF", "url": "pdf/DCMB(2022).pdf" },
-            { "icon": "code", "text": "Code", "url": "https://github.com/Xianjie-Guo/DCMB" },
-            { "icon": "file-alt", "text": "Supplementary Material", "url": "pdf/DCMB-supp.pdf" }
         ]
     },
     {
