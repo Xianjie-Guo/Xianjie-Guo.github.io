@@ -11,7 +11,7 @@
             { "icon": "award", "text": "CCF-C Journal" }
         ],
         "links": [
-            { "icon": "file-pdf", "text": "PDF", "url": "pdf/SRCFS(2026).pdf" }
+            { "icon": "file-pdf", "text": "PDF", "url": "pdf/SRCFS(2027).pdf" }
         ]
     },
     {
@@ -229,7 +229,7 @@
             { "icon": "award", "text": "CCF-B Journal" }
         ],
         "links": [
-            { "icon": "file-pdf", "text": "PDF", "url": "pdf/DCMB(2022).pdf" },
+            { "icon": "file-pdf", "text": "PDF", "url": "pdf/DCMB(2024).pdf" },
             { "icon": "code", "text": "Code", "url": "https://github.com/Xianjie-Guo/DCMB" },
             { "icon": "file-alt", "text": "Supplementary Material", "url": "pdf/DCMB-supp.pdf" }
         ]
